@@ -1,10 +1,11 @@
 
-
+""" testing"""
 class Noeud :
     def __init__(self, val):
         self.val = val
         self.enfants = []
 
+    """ """
     def ajt_noeud(self,enfant):
         self.enfants.append(enfant)
 
